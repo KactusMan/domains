@@ -1,4 +1,5 @@
 import { useState } from "react";
+import dayImage from '../components/assets/final-morning.mp4';
 import MessageModal from "../components/modal";
 import SecModal from "../components/secmodal";
 
@@ -36,10 +37,13 @@ export default function Mint() {
     >
       <div className="flex flex-col lg:flex-row    w-full">
         <div className="lg:w-[45%]  h-[215px] md:h-full relative lg:h-auto">
-          <img
+          <video
             className="rounded-md 2xl:rounded-[40px] sm:w-full  sm:top-[14%] sm:relative xl:rounded-[40px] xl:relative  xl:w-full xl:h-[270%]  xl:top-[60%] lg:rounded-[40px] md:rounded-[40px] sm:rounded-[40px]  2xl:w-[60%] 2xl:h-[300%] lg:w-[100%] 2xl:relative 2xl:top-[75%] 2xl:right-[9%] lg:h-[400px] lg:relative lg:top-[26%] object-cover p-1 md:p-2 h-[215px] md:h-full"
-            src="./assets/supassgif.gif"
+            src={dayImage}
             alt="gif"
+            type="video/mp4"
+            loop={true}
+            autoPlay={true}
           />
         
         </div>
