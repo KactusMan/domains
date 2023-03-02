@@ -254,7 +254,7 @@ font-family: 'Montserrat';
 
 
  body {
-  /* overflow-x:hidden; */
+  overflow-x:hidden;
   /* max-width: 100%; */
   scroll-behavior: smooth;
 
@@ -360,9 +360,9 @@ video {
 } */
 
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
   .disc-img {
     
     /* position: relative;
