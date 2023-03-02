@@ -6,7 +6,7 @@ function Roadmap() {
 
 <div className="absolute tablet-footer sm:w-screen md:w-screen lg:w-screen xl:w-screen 2xl:w-screen">
         
-<div className=" z-10 absolute sm:w-full sm:h-[250px] huawei-footer  md:w-screen md:h-[210px]  lg:h-[258px] lg:my-[10%]  lg:w-screen  xl:w-screen 2xl:w-screen xl:h-[300px] xl:my-[40%] footer-bg 2xl:h-[320px] 2xl:my-[22%]">
+<div className=" z-10 absolute sm:w-full sm:h-[250px] huawei-footer  md:w-screen md:h-[210px]   lg:h-[258px] lg:my-[10%]  lg:w-screen  xl:w-screen 2xl:w-screen xl:h-[340px] xl:my-[50%] footer-bg 2xl:h-[320px] 2xl:my-[22%]">
 
 <img className=" sm:w-[30%] sm:absolute sm:p-2 sm:my-[3%] sm:mx-[1%] md:w-[16%]  md:p-2 md:my-[3%] md:mx-[1%] lg:w-[14%]  lg:p-2 lg:mx-[4%] lg:my-[1%] 2xl:w-[12%] 2xl:left-[5%] 2xl:absolute 2xl:top-[9%] xl:w-[16%] bg-cover 2xl:p-2 xl:p-2  xl:mx-[4%] xl:my-[1%] " src="./assets/turtle-logo.png" alt="footer-logo" />
 
@@ -17,13 +17,13 @@ function Roadmap() {
 
 <a href="https://discord.gg/teachemturtles">
 
-<img className="absolute sm:w-[4%] sm:left-[34%] sm:top-[50%]  md:w-[3%] md:left-[23%] md:top-[75%]  lg:w-[2%] lg:left-[25%] lg:top-[75%] 2xl:w-[2.2%] xl:w-[2.4%] bg-cover xl:left-[30%] xl:top-[75%]  2xl:left-[30%] 2xl:top-[75%]   " src="./assets/footer-disc-mint.png" alt="discord-icon" />      
+<img className="absolute sm:w-[4%] sm:left-[34%] sm:top-[50%]  md:w-[3%] md:left-[23%] md:top-[75%]  lg:w-[2%] lg:left-[25%] lg:top-[75%] 2xl:w-[2.2%] xl:w-[2.4%] bg-cover xl:left-[30%] xl:top-[75%]  2xl:left-[30%] 2xl:top-[75%]   " src="./assets/Discord-icon.svg" alt="discord-icon" />      
 </a>
 
 <span className="sm:text-[0.5em]  sm:absolute sm:left-[40%] sm:top-[50%]  md:text-[0.8em] md:absolute md:left-[28%] md:top-[75%] discord-text lg:text-[0.7em] lg:absolute lg:left-[28%] lg:top-[75%]  xl:text-[0.9em] xl:left-[34%] xl:top-[76%] xl:absolute 2xl:text-[1.3em] 2xl:left-[33%] 2xl:top-[75%] 2xl:absolute uppercase">Discord</span>
 
 <a href="https://twitter.com/teachemturtles">
-<img className="absolute sm:w-[4%] sm:left-[55%] sm:top-[50%] md:w-[3%] md:left-[40%] md:top-[75%] lg:w-[2%] lg:left-[40%] lg:top-[75%] 2xl:w-[2.2%] xl:w-[2.4%] xl:left-[45%] xl:top-[75%] bg-cover 2xl:left-[45%] 2xl:top-[75%]   " src="./assets/footer-twitter-mint.png" alt="twitter-icon" />            
+<img className="absolute sm:w-[4%] sm:left-[55%] sm:top-[50%] md:w-[3%] md:left-[40%] md:top-[75%] lg:w-[2%] lg:left-[40%] lg:top-[75%] 2xl:w-[2.2%] xl:w-[2.4%] xl:left-[45%] xl:top-[75%] bg-cover 2xl:left-[45%] 2xl:top-[75%]   " src="./assets/Twitter-icon.svg" alt="twitter-icon" />            
 </a>
 <span className=" sm:text-[0.5em] sm:absolute sm:left-[61%] sm:top-[50%] md:text-[0.8em] md:left-[45%] md:top-[75%] md:absolute   discord-text lg:absolute lg:text-[0.7em] lg:left-[43%] lg:top-[75%]   xl:absolute xl:text-[0.9em] xl:left-[49%] xl:top-[76%] 2xl:text-[1.3em] 2xl:left-[48%] 2xl:absolute 2xl:top-[75%]   uppercase">@teachemturtles</span>
 

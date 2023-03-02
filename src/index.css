@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 
@@ -26,10 +26,10 @@
 
 .manrope-light {
   font-family: 'Manrope', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 text-transform: uppercase;
 
-color: #BB9A5D;;
+color: #654A20;;
 }
 .inner-dummy {
 
@@ -64,6 +64,18 @@ color: #BB9A5D;;
   color: #443626;
  
 
+}
+
+.mint-text {
+font-family: 'Montserrat';
+  color: rgba(101, 74, 32, 1);
+  font-style: italic; 
+  font-weight: 600;
+}
+
+
+.plus-color {
+  color: #654A20;
 }
 
 .poker {
@@ -215,6 +227,15 @@ color: #BB9A5D;;
 
 }
 
+.border-2 {
+  border-color: #654A20;
+  border-style: solid;
+  border-radius: 40px 40px 40px 40px;
+  border-width: 4.5px;
+
+}
+
+
 .faq {
   background: rgba(136, 103, 66, 0.53);
 }
@@ -233,7 +254,7 @@ color: #BB9A5D;;
 
 
  body {
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
   /* max-width: 100%; */
   scroll-behavior: smooth;
 
@@ -275,7 +296,7 @@ img {
   /* position: relative;
   width: 111.5%;
   margin-bottom: 1.5em; */
-  border-color: #BB9A5D;
+  border-color: #654A20;
   border-width: 1px;
 
 
@@ -286,7 +307,7 @@ img {
   width: 93%;
   left: 4%;
   margin-bottom: 1.5em; */
-  border-color: #BB9A5D;  
+  border-color: #654A20;  
   border-width: 1px;
 }
 
@@ -339,7 +360,9 @@ video {
 } */
 
 
-
+* {
+  outline: 1px solid red;
+}
   .disc-img {
     
     /* position: relative;

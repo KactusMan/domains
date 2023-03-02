@@ -51,42 +51,42 @@ const handleToggle=()=>{
         <hr className="hr-div-1 lg:w-[110%] lg:mb-[1em]  xl:w-[106%] xl:mb-[1.5em] 2xl:w-[100%] 2xl:mx-[2.2%] 2xl:mb-[1.5em]" />
         
         <a href="./assets/Turtle-Whitepaper.pdf" target="_blank" rel="noopener noreferrer">
-        <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] lg:-mx-[4%] xl:text-[15px] 2xl:text-[22px]   lg:p-8   xl:p-5 2xl:p-10 2xl:mx-[2%] relative  ">Whitepaper</span>
+        <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] lg:-mx-[4%] xl:text-[20px] 2xl:text-[22px]   lg:p-8   xl:p-5 2xl:p-10 2xl:mx-[2%] relative  ">Whitepaper</span>
         </a>
         
         <a href="#roadmap">
-          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[15px] 2xl:text-[22px]  lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">Roadmap</span>
+          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[20px] 2xl:text-[22px]  lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">Roadmap</span>
         </a>
 
         <a href="#faq">
-          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[15px] 2xl:text-[22px] lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">FAQ</span>
+          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[20px] 2xl:text-[22px] lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">FAQ</span>
         </a>
 
 
         <a href="/mint">
-          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[15px] 2xl:text-[22px] lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">Team</span>
+          <span className=" manrope-light md:text-[10px]  md:p-4 lg:text-[12px] xl:text-[20px] 2xl:text-[22px] lg:p-8  xl:p-5  2xl:p-10 2xl:mx-[2%] relative">Team</span>
         </a>
 
 
       </div>
 
 
-      <div className="logo-div bg-cover sm:w-[15%] sm:bg-cover sm:right-[3%] sm:bottom-[5%] sm:absolute  relative md:w-[100%] md:left-[10%] md:bottom-[100%] lg:w-[100%] lg:bottom-[80%] xl:w-[100%] xl:bottom-[34%] xl:left-[5%] lg:left-[15%]  2xl:w-[100%] 2x:w-[100%] 2xl:left-[20%] 2xl:bottom-[46%]">
-      <img className="logo bg-cover" src="./assets/turtle-logo.png" alt="turtles" />
+      <div className="logo-div bg-cover sm:w-[15%] sm:bg-cover sm:right-[3%] sm:bottom-[5%] sm:absolute  relative md:w-[100%] md:left-[10%] md:bottom-[100%] lg:w-[100%] lg:bottom-[80%] xl:w-[100%] xl:bottom-[44%] xl:left-[5%] lg:left-[15%]  2xl:w-[100%] 2x:w-[100%] 2xl:left-[20%] 2xl:bottom-[46%]">
+      <img className="logo bg-cover" src="./assets/turtle-logo.svg" alt="turtles" />
     </div>
 
       {/* right div, div 2 of grid */}
 
       <div className="div2 md:bottom-[50%] sm:hidden    lg:bottom-[37%]  lg:mx-[-4.9%]  relative   ">
-        <hr className="hr-div-2 lg:w-[86%] lg:mx-[5%] lg:mb-[1em] xl:w-[93%] xl:mb-[1.5em] 2xl:w-[100%]" />
+        <hr className="hr-div-2 lg:w-[86%] lg:mx-[5%] lg:mb-[1em] xl:w-[93%] xl:mt-[2%] 2xl:w-[100%]" />
 
         <a href="https://discord.gg/teachemturtles">
-          <img className=" disc-img md:w-[6%] md:top-[10%] md:left-[70%]   lg:w-[5%]  lg:left-[70%] lg:top-[4%]    xl:w-[5.5%] xl:absolute xl:top-[28%] xl:left-[60%] 2xl:w-[5%] 2xl:absolute 2xl:left-[70%] 2xl:top-[15%]  relative" src="./assets/Discord-icon.png" alt="discord" />
+          <img className=" disc-img md:w-[6%] md:top-[10%] md:left-[70%]   lg:w-[5%]  lg:left-[70%] lg:top-[4%]    xl:w-[5.5%] xl:absolute xl:top-[28%] xl:left-[60%] 2xl:w-[5%] 2xl:absolute 2xl:left-[70%] 2xl:top-[15%]  relative" src="./assets/Discord-icon.svg" alt="discord" />
         </a>
 
 
         <a href="https://twitter.com/teachemturtles">
-          <img className=" twitter-img md:w-[6%] md:left-[85%] md:-my-[2%] lg:w-[5%]  lg:left-[80%] lg:bottom-[12%]   xl:w-[5.5%] xl:absolute xl:top-[28%] xl:left-[70%] xl:bottom-[20%] 2xl:w-[5%] 2xl:absolute 2xl:top-[15.5%] 2xl:left-[80%]  relative" src="./assets/Twitter-icon.png" alt="twitter" />
+          <img className=" twitter-img md:w-[6%] md:left-[85%] md:-my-[2%] lg:w-[5%]  lg:left-[80%] lg:bottom-[12%]   xl:w-[5.5%] xl:absolute xl:top-[28%] xl:left-[70%] xl:bottom-[20%] 2xl:w-[5%] 2xl:absolute 2xl:top-[15.5%] 2xl:left-[80%]  relative" src="./assets/Twitter-icon.svg" alt="twitter" />
         </a>
 
         {/* <a href="https://opensea.io">

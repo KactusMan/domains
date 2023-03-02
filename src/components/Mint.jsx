@@ -1,5 +1,5 @@
 import { useState } from "react";
-import dayImage from '../components/assets/final-morning.mp4';
+// import dayImage from '../components/assets/mint-pass.webp';
 import MessageModal from "../components/modal";
 import SecModal from "../components/secmodal";
 
@@ -37,76 +37,90 @@ export default function Mint() {
     >
       <div className="flex flex-col lg:flex-row    w-full">
         <div className="lg:w-[45%]  h-[215px] md:h-full relative lg:h-auto">
-          <video
-            className="rounded-md 2xl:rounded-[40px] sm:w-full  sm:top-[14%] sm:relative xl:rounded-[40px] xl:relative  xl:w-full xl:h-[270%]  xl:top-[60%] lg:rounded-[40px] md:rounded-[40px] sm:rounded-[40px]  2xl:w-[60%] 2xl:h-[300%] lg:w-[100%] 2xl:relative 2xl:top-[75%] 2xl:right-[9%] lg:h-[400px] lg:relative lg:top-[26%] object-cover p-1 md:p-2 h-[215px] md:h-full"
-            src={dayImage}
-            alt="gif"
-            type="video/mp4"
-            loop={true}
-            autoPlay={true}
-          />
+          <picture  className="rounded-md 2xl:rounded-[40px] sm:w-full  sm:top-[14%] sm:relative xl:rounded-[40px] xl:relative  xl:w-full xl:h-[270%]  xl:top-[80%] xl:left-[22%]  lg:rounded-[40px] md:rounded-[40px] sm:rounded-[40px]  2xl:w-[60%] 2xl:h-[300%] lg:w-[100%] 2xl:relative 2xl:top-[75%]  lg:h-[400px] lg:relative lg:top-[46%] object-cover p-1 md:p-2 h-[215px] md:relative md:top-[70px] ">
+            
+             <source srcset="./assets/mint-pass.webp" type="image/webp"/>
+            <source srcset="./assets/mint-pass.webp" type="image/jpeg"/> 
+              <img className="rounded-full border-2" src="./assets/mint-pass.webp" alt="mint-pass"/>
+
+            </picture>
+
         
         </div>
         <div className="lg:w-[45%] xl:top-[500px] xl:h-max  xl:relative text-center pt-5 lg:pt-0">
-          {/* <div className=" ">
-            <p className="text-5xl font-bold text-transparent   bg-clip-text bg-gradient-to-r to-[#FF566B] via-[#633CFD]  from-[#21E5F0]">
-              Genesis Super
-              <br /> Pass
-            </p>
-          </div> */}
-          <p className="pt-6 text-lg font-normal lg:relative lg:top-[32%] xl:text-[1.2em]   2xl:relative 2xl:w-max 2xl:left-[56%] 2xl:text-[1.3em]  lg:left-[10%]  text-white">
-            1111 Genesis Super Pass that will grant you access to the Superwall <br />
-            E2E & P2E Ecosystem which includes Social Media, NFT Marketplace, <br />
-            Launchpad, Custom Goods Market, Staking, future drops and more. <br />
+         
+         {/* MINT PASS */}
+         
+          <div className="  ">
+          <h1 className=" opacity-100  z-30  sm:text-[3em] sm:w-max sm:leading-[110%] sm:text-center sm:top-[66%] sm:left-[25%] md:w-max  md:top-[85%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] lg:w-max lg:text-center  absolute lg:top-20 lg:text-[7em] lg:leading-[100%]  xl:top-28 xl:left-[35%]  2xl:text-center     2xl:top-[30%] xl:w-max  xl:text-center xl:leading-[110%]  batsand xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[110%] 2xl:left-[60%]"> Mint Pass   </h1>
+                    <h1 className=" opacity-100 z-20   sm:text-[3em]  sm:w-max sm:leading-[110%] sm:text-center sm:top-[66.7%] sm:left-[25%] md:w-max  md:top-[86%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] absolute lg:w-max lg:text-center lg:top-24 lg:text-[7em] lg:leading-[100%] xl:top-[29%] xl:left-[35%]  2xl:text-center 2xl:top-[32%]  xl:w-max xl:text-center xl:leading-[110%] batsand-dark xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[95%] 2xl:left-[60%]"> Mint Pass  </h1>
+          </div>
+
+          {/* MINT PASS SUPPLY */}
+          
+          <p className="sm:top-[210px] sm:relative pt-6 text-lg font-normal lg:relative lg:top-[32%] xl:text-[1.2em] mint-text xl:top-[200px] xl:relative md:relative md:top-[160px]  2xl:relative 2xl:w-max 2xl:left-[60%] 2xl:top-[120px] 2xl:text-[1.3em]  lg:left-[10%]  text-white">
+          3666 Mint Passes for OGs & WLs only, these passes <br />
+          are free to mint.  Passes will grant you access to the <br />
+          Teach Em Turtles Phase 1 mint.  
           </p>
-          <div className="bg-gradient-to-r from-[#FF566B] via-[#702CD5] lg:relative  2xl:relative 2xl:left-[30%]  lg:top-[30%] lg:left-[10%] to-[#21E5F0] p-1 rounded-full w-[288px] mx-auto mt-10">
-            <div className="flex justify-between items-center bg-[#000000] py-4 px-4 rounded-full">
+
+
+
+        {/* PLUS MINUS BUTTON */}
+
+          <div className=" sm:top-[200px] sm:relative border rounded-full lg:relative  2xl:relative 2xl:left-[26%] 2xl:top-[140px]  lg:top-[30%] xl:top-[200px] md:relative md:top-[160px] xl:relative lg:left-[10%]  p-1  w-[288px] mx-auto mt-10">
+            <div className="flex justify-between items-center   py-4 px-4 rounded-full">
               <button
                 disabled={counter <= 0}
-                className="cursor-pointer"
+                className="cursor-pointer "
                 onClick={decrease}
               >
-                <img src="./assets/minus.png" alt="minus" />
+                <img src="./assets/minus.svg" alt="minus" />
               </button>
-              <div className="text-2xl text-white">{counter}</div>
-              <button className="cursor-pointer" onClick={increase}>
-                <img src="./assets/sum.png" alt="sum" />
+              <div className="text-2xl ">{counter}</div>
+              <button className="cursor-pointer " onClick={increase}>
+                <img src="./assets/plus.svg" alt="sum" />
               </button>
             </div>
-          </div>
-          <div className="flex justify-around items-center lg:relative xl:w-[18%] lg:top-[30%] 2xl:relative 2xl:left-[30%]  lg:left-[10%] w-[45%] 2xl:w-[20%] mx-auto pt-5">
+          </div> 
+
+
+
+           <div className="flex justify-around sm:top-[200px] sm:relative items-center lg:relative xl:w-[18%] lg:top-[30%]  2xl:top-[140px] 2xl:relative 2xl:left-[26%] xl:top-[200px] md:relative md:top-[160px] xl:relative lg:left-[10%] w-[45%] 2xl:w-[20%] mx-auto pt-5">
             <div>
-              <img src="./assets/eva_info.png" alt="eva_info" />
+              <img src="./assets/eva_info.svg" alt="eva_info" />
             </div>
             <div>
-              <p className="text-base leading-[24px] font-medium text-[#C6C6C6]">
-                1 NFT = 0.085 ETH
+              <p className="text-base leading-[24px] font-medium text-[#654A20]">
+              1 Pass per 1 OG/WL Wallet
               </p>
             </div>
           </div>
+
+
           <div
             onClick={() => {
               setopenModal(!openModal);
             }}
-            className="cursor-pointer bg-gradient-to-r lg:relative xl:relative xl:w-[15%] lg:top-[30%] lg:left-[10%] 2xl:relative 2xl:left-[30%]   from-[#FF566B] via-[#702CD5] to-[#21E5F0]  rounded-full  w-[50%] 2xl:w-[15%] md:w-[20%] lg:w-[30%] mx-auto p-2 mt-5"
+            className="cursor-pointer sm:top-[200px] sm:relative  lg:relative xl:relative xl:top-[200px] xl:w-[15%] 2xl:top-[150px] lg:top-[30%] lg:left-[10%] 2xl:relative 2xl:left-[26%] md:relative md:top-[160px]   bg-[#654A20] rounded-full  w-[50%] 2xl:w-[15%] md:w-[20%] lg:w-[30%] mx-auto p-2 mt-5"
           >
-            <p className="text-lg font-bold ">Mint</p>
+            <p className="text-lg font-bold text-white 2xl:top-[60%]">Mint</p>
           </div>
-          <div className="flex justify-evenly lg:relative lg:top-[30%] xl:relative xl:w-[15%] 2xl:relative 2xl:left-[30%]  lg:left-[10%] items-center w-[50%] md:w-[20%] 2xl:w-[20%] lg:w-[30%] mx-auto mt-5">
+          <div className="flex justify-evenly sm:top-[200px] sm:relative lg:relative lg:top-[30%] 2xl:top-[160px] xl:top-[200px] xl:relative xl:w-[15%] 2xl:relative 2xl:left-[26%]    lg:left-[10%] items-center w-[50%] md:relative md:top-[160px] md:w-[20%]  2xl:w-[20%] lg:w-[30%] mx-auto mt-5">
             <div>
               <img
-                src="./assets/etherscan_circle.png"
+                src="./assets/etherscan_circle.svg"
                 alt="etherscan_circle"
               />
             </div>
             <div>
-              <img src="./assets/eth.png" alt="eth" />
+              <img src="./assets/eth.svg" alt="eth" />
             </div>
             <div>
-              <img src="./assets/mintwit.png" alt="mintwit" />
+              <img src="./assets/mintwit.svg" alt="mintwit" />
             </div>
             <div>
-              <img src="./assets/mintbrowser.png" alt="mintbrowser" />
+              <img src="./assets/mintbrowser.svg" alt="mintbrowser" />
             </div>
           </div>
         </div>
