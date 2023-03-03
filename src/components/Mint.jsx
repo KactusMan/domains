@@ -3,6 +3,27 @@ import { useState } from "react";
 import MessageModal from "../components/modal";
 import SecModal from "../components/secmodal";
 
+// import { ifIos, ifAndroid } from 'react-native-platform';
+
+// const iosImageSource = require('./assets/iosgiphy.gif');
+// const androidImageSource = require('./assets/mint-pass.webp');
+
+// const ImageComponent = () => (
+//   <>
+//     {ifIos(<Image source={iosImageSource} />)}
+//     {ifAndroid(<Image source={androidImageSource} />)}
+//   </>
+// );
+
+const isIOS = /iPhone|iPad|iPod/i.test(window.navigator.userAgent);
+const imageSource = isIOS ? './assets/iosgiphy.gif' : './assets/mint-pass.webp';
+
+
+
+
+
+
+
 
 
 export default function Mint() {
@@ -41,7 +62,9 @@ export default function Mint() {
             
              <source srcset="./assets/mint-pass.webp" type="image/webp"/>
             <source srcset="./assets/mint-pass.webp" type="image/jpeg"/> 
-              <img className="rounded-full border-2" src="./assets/mint-pass.webp" alt="mint-pass"/>
+            {/* <img className="rounded-full border-2" src="./assets/mint-pass.webp" alt="" /> */}
+            <img className="rounded-full border-2" src={imageSource} alt="Mint Pass" />
+            
 
             </picture>
 
