@@ -52,8 +52,8 @@ export default function Mint() {
          {/* MINT PASS */}
          
           <div className="  ">
-          <h1 className=" opacity-100  z-30  sm:text-[3em] sm:w-max sm:leading-[110%] sm:text-center sm:top-[58%] sm:left-[22.5%] md:w-max  md:top-[85%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] lg:w-max lg:text-center  absolute lg:top-20 lg:text-[7em] lg:leading-[100%]  xl:top-28 xl:left-[35%]  2xl:text-center     2xl:top-[30%] xl:w-max  xl:text-center xl:leading-[110%]  batsand xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[110%] 2xl:left-[60%]"> Mint Pass   </h1>
-                    <h1 className=" opacity-100 z-20   sm:text-[3em]  sm:w-max sm:leading-[110%] sm:text-center sm:top-[58.7%] sm:left-[22.5%] md:w-max  md:top-[86%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] absolute lg:w-max lg:text-center lg:top-24 lg:text-[7em] lg:leading-[100%] xl:top-[29%] xl:left-[35%]  2xl:text-center 2xl:top-[32%]  xl:w-max xl:text-center xl:leading-[110%] batsand-dark xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[95%] 2xl:left-[60%]"> Mint Pass  </h1>
+          <h1 className=" opacity-100  z-30  sm:text-[3em] sm:w-max sm:leading-[110%] sm:text-center sm:top-[65%] sm:left-[26.5%] md:w-max  md:top-[85%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] lg:w-max lg:text-center  absolute lg:top-20 lg:text-[7em] lg:leading-[100%]  xl:top-28 xl:left-[35%]  2xl:text-center     2xl:top-[30%] xl:w-max  xl:text-center xl:leading-[110%]  batsand xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[110%] 2xl:left-[60%]"> Mint Pass   </h1>
+                    <h1 className=" opacity-100 z-20   sm:text-[3em]  sm:w-max sm:leading-[110%] sm:text-center sm:top-[65.7%] sm:left-[26.5%] md:w-max  md:top-[86%] md:left-[28%] md:text-[5em] md:text-center md:leading-[110%] absolute lg:w-max lg:text-center lg:top-24 lg:text-[7em] lg:leading-[100%] xl:top-[29%] xl:left-[35%]  2xl:text-center 2xl:top-[32%]  xl:w-max xl:text-center xl:leading-[110%] batsand-dark xl:text-[6em] 2xl:w-max 2xl:text-[7em] 2xl:leading-[95%] 2xl:left-[60%]"> Mint Pass  </h1>
           </div>
 
           {/* MINT PASS SUPPLY */}
